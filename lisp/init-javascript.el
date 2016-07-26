@@ -57,6 +57,7 @@
 
 
 (when (and (executable-find "ag")
+           (version<= "25" emacs-version)
            (maybe-require-package 'xref-js2))
   (after-load 'js2-mode
     (define-key js2-mode-map (kbd "M-.") nil)
