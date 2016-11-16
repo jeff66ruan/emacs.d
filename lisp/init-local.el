@@ -21,5 +21,6 @@
 (require 'setup-helm-gtags)
 (require 'setup-cedet)
 (require 'setup-c)
+(require 'setup-slime)
 
 (provide 'init-local)
